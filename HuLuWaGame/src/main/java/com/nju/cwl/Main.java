@@ -44,7 +44,7 @@ public class Main extends Application
 
 	public void 初始化() throws IOException
 	{
-		// new
+		// new files
 		List<String> 分辨率数组 = Files.readAllLines(Paths.get("src/main/resources/分辨率文件/分辨率.txt"));
 
 		读取文件button = new Button("读取文件");
