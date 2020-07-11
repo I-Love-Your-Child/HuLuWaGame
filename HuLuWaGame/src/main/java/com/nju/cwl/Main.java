@@ -149,6 +149,7 @@ public class Main extends Application
 
 	public void 进入自动播放界面() throws IOException
 	{
+	    // test new branch
 		System.out.println("进入main");
 		System.out.println(记录选择框);
 		System.out.println(记录选择框.getSelectionModel().getSelectedItem());
